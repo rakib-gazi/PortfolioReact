@@ -3,7 +3,7 @@ import { Button, Navbar as FlowbiteNavbar } from "flowbite-react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/logo.png";
 import { FiDownload } from "react-icons/fi";
-
+import cv from "../assets/cv.pdf";
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -50,8 +50,15 @@ const Navbar = () => {
           </Link>
         </FlowbiteNavbar.Brand>
         <div className="flex md:order-2">
-          <Button className="bg-active text-white hover:bg-body flex justify-center items-center me-2 ">
-            <FiDownload className="text-xl me-2" /> <span>Resume</span>
+          <Button className="bg-active text-white hover:bg-body  ">
+            <a
+              href={cv}
+              download="Mohammed_Rakib_Gazi_Resume.pdf"
+              className="flex justify-center items-center me-2"
+              
+            >
+              <FiDownload className="text-xl me-2" /> <span>Resume</span>
+            </a>
           </Button>
           <FlowbiteNavbar.Toggle />
         </div>

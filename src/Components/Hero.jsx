@@ -4,6 +4,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import rakib from "../assets/rakib.png";
+import cv from "../assets/cv.pdf"
 const Hero = () => {
   const social = [
     <a href="https://www.facebook.com/bd.gazi97" target="_blank">
@@ -38,9 +39,15 @@ const Hero = () => {
             ))}
           </div>
           <div>
-            <button className="bg-active px-3 md:px-4 lg:px-6 py-1 md:py-2 lg:py-3 rounded-xl text-bold text-base md:text-lg  font-bold">
+          <div className="pt-8">
+            <a
+              href={cv}
+              download="Mohammed_Rakib_Gazi_Resume.pdf"
+              className="bg-active px-3 md:px-4 lg:px-6 py-1 md:py-2 lg:py-3 rounded-xl text-bold text-base md:text-lg font-bold text-white"
+            >
               Download Resume
-            </button>
+            </a>
+          </div>
           </div>
         </div>
         <div className="flex justify-center items-center">

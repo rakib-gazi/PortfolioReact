@@ -36,12 +36,12 @@ const Projects = () => {
               </span>
             </div>
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
-                title="Live Demo"><FaExternalLinkAlt className="text-2xl" /></a>
-              <a href="#" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
-                title="Github Link"><FaGithub className="text-2xl" /></a>
-              <Link to="/details" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
-                title="View Details"><FaEye className="text-2xl" /></Link>
+              <a href="https://gadgetheavenph.netlify.app/" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
+                title="Live Demo" target="_blank"><FaExternalLinkAlt className="text-2xl" /></a>
+              <a href="https://github.com/rakib-gazi" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
+                title="Github Link" target="_blank"><FaGithub className="text-2xl" /></a>
+              {/* <Link to="/details" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
+                title="View Details"><FaEye className="text-2xl" /></Link> */}
             </div>
           </div>
         </div>
@@ -70,12 +70,12 @@ const Projects = () => {
               </span>
             </div>
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
-                title="Live Demo"><FaExternalLinkAlt className="text-2xl" /></a>
-              <a href="#" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
-                title="Github Link"><FaGithub className="text-2xl" /></a>
-              <Link to="/details" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
-                title="View Details"><FaEye className="text-2xl" /></Link>
+              <a href="https://couponhive.netlify.app/" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
+                title="Live Demo" target="_blank"><FaExternalLinkAlt className="text-2xl" /></a>
+              <a href="https://github.com/rakib-gazi" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
+                title="Github Link" target="_blank"><FaGithub className="text-2xl" /></a>
+              {/* <Link to="/details" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
+                title="View Details"><FaEye className="text-2xl" /></Link> */}
             </div>
           </div>
         </div>
@@ -110,12 +110,12 @@ const Projects = () => {
               </span>
             </div>
             <div className="flex space-x-4 mt-4">
-              <a href="#" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
-                title="Live Demo"><FaExternalLinkAlt className="text-2xl" /></a>
-              <a href="#" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
-                title="Github Link"><FaGithub className="text-2xl" /></a>
-              <Link to="/details" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
-                title="View Details"><FaEye className="text-2xl" /></Link>
+              <a href="https://gamelens.netlify.app/" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
+                title="Live Demo" target="_blank"><FaExternalLinkAlt className="text-2xl" /></a>
+              <a href="https://github.com/rakib-gazi" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
+                title="Github Link" target="_blank"><FaGithub className="text-2xl" /></a>
+              {/* <Link to="/details" className="w-12 h-12 p-2 flex items-center justify-center rounded-full bg-gray-800 hover:bg-gray-700"
+                title="View Details"><FaEye className="text-2xl" /></Link> */}
             </div>
           </div>
         </div>
