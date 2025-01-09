@@ -5,8 +5,6 @@ A personal portfolio website to showcase projects, skills, and achievements.
 ## Live Demo
 [Visit the Portfolio](https://rakibgazi.netlify.app/)
 
-## Screenshot
-![Portfolio Screenshot](path/to/screenshot.png)
 
 ## Technologies Used
 - **React**: For building the user interface.
