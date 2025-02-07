@@ -45,7 +45,7 @@ const Navbar = () => {
             <img
               src={logo}
               className="mr-3 h-6 sm:h-9"
-              alt="Flowbite React Logo"
+              alt="Rakib Gazi Logo Logo"
             />
           </Link>
         </FlowbiteNavbar.Brand>

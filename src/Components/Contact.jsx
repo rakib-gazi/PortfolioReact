@@ -44,7 +44,7 @@ const Contact = () => {
       <h1 className="font-rowdies text-5xl text-active">Contact Me</h1>
       <div className="py-8 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-4">
         <form
-          className="p-0 lg:p-8 xl:p-12 flex flex-col gap-4"
+          className="p-0 lg:py-8 xl:py-12 flex flex-col gap-4 "
           onSubmit={sendEmail}
         >
           <div>
@@ -100,7 +100,7 @@ const Contact = () => {
           )}
         </form>
         <div className="flex justify-center items-center">
-          <div className="bg-nav rounded-xl p-12">
+          <div className="bg-nav rounded-xl w-full p-12">
             <div className="flex justify-start items-center gap-4 p-2">
               <FaLocationDot className="text-active text-3xl" />
               <p className="text-white">

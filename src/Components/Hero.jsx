@@ -30,7 +30,7 @@ const Hero = () => {
           <h2 className="text-xl md:text-2xl lg:text-3xl text-active font-medium">
             Front-End Developer
           </h2>
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold text-white">
+          <h1 className="text-2xl md:text-3xl xl:text-5xl font-bold text-white">
             Mohammed Rakib Gazi
           </h1>
           <div className="flex justify-start items-center gap-2">
@@ -43,7 +43,7 @@ const Hero = () => {
             <a
               href={cv}
               download="Mohammed_Rakib_Gazi_Resume.pdf"
-              className="bg-active px-3 md:px-4 lg:px-6 py-1 md:py-2 lg:py-3 rounded-xl text-bold text-base md:text-lg font-bold text-white"
+              className="bg-active px-3 md:px-4 lg:px-6 py-2 lg:py-3 rounded-xl text-bold text-base md:text-lg font-bold text-white"
             >
               Download Resume
             </a>
